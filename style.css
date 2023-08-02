@@ -72,17 +72,18 @@ body{
 
 @media only screen and (max-width: 767px) {
     .card-img-top{
-        
         width: 150px;
         height: 150px;
-       
+        left: 45px !important;
     }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1199px) {
+@media only screen and (min-width: 400px) and (max-width: 1199px) {
     .card-img-top {
         width: 150px;
         height: 150px;
+        left: 65px !important;
+        
     }
 
     .title {
