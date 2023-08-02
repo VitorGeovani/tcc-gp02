@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,113,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+.title{
+    color:#fff;
+}
+  
+.card-img-top{
+    border-radius: 50%;
+    height: 250px !important;
+    width: 250px !important;
+    position: relative;
+    left: 80px;
+    top: -80px;
+    object-fit: cover;
+}
+
+.card{
+    border-radius: 0;
+    cursor: pointer;
+    margin-top: 100px !important;
+}
+
+.card:hover{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+
+}
+.card-body{
+    margin-top: -50px;
+}
+.bi{
+    font-size: 25px;
+}
+
+/* Estilos personalizados */
+.btn-ver-cv {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.btn-ver-cv:hover {
+    background-color: #0056b3;
+    color: #fff;
+}
+
+#cvDownloadLink {
+    color: #fff;
+    text-decoration: none;
+}
+
+#cvDownloadLink:hover {
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 600px) {
+    .card-img-top{
+        
+        left: 48px !important;
+       
+    }
+  }
