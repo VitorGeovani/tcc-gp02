@@ -27,6 +27,7 @@ body{
     top: -80px;
     object-fit: cover;
     border-style: solid;
+    border-color: #000;
     
 }
 
