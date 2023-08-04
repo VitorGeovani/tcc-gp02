@@ -10,11 +10,12 @@ body{
 }
 
 .title{
-    color: #fff;
-    font-family: 'Roboto', sans-serif;
-    font-size: 2rem;
-    text-shadow: 2px 2px 2px #000;
     margin-bottom: 20px;
+}
+
+.subtitle{
+    color: #e2dddd;
+    font-family: 'Roboto', sans-serif;
 }
   
 .card-img-top{
@@ -25,6 +26,7 @@ body{
     left: 80px;
     top: -80px;
     object-fit: cover;
+    border-style: solid;
     
 }
 
