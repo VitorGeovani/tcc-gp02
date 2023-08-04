@@ -7,6 +7,8 @@
 }
 body{
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 35%, rgba(23,26,27,1) 100%);
+
+    /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,113,1) 35%, rgba(0,212,255,1) 100%); */
 }
 
 .title{
@@ -80,7 +82,8 @@ body{
 /* Responsividade */
 @media only screen and (max-width: 767px) {
     .title {
-        font-size: 1.5rem;
+        width: 200px;
+        height: 50px;
     }
     
     .card-img-top {
@@ -103,7 +106,8 @@ body{
 
 @media only screen and (min-width: 768px) and (max-width: 1199px) {
     .title {
-        font-size: 1.8rem;
+        width: 200px;
+        height: 50px;
     }
     
     .card-img-top {
